@@ -333,6 +333,7 @@ bool ConfigManager::load() {
 	loadIntConfig(L, VIP_BONUS_EXP, "vipBonusExp", 0);
 	loadIntConfig(L, VIP_BONUS_LOOT, "vipBonusLoot", 0);
 	loadIntConfig(L, VIP_BONUS_SKILL, "vipBonusSkill", 0);
+	loadIntConfig(L, VIP_EXERCISE_SPEED, "vipExerciseSpeed", 0);
 	loadIntConfig(L, VIP_FAMILIAR_TIME_COOLDOWN_REDUCTION, "vipFamiliarTimeCooldownReduction", 0);
 	loadIntConfig(L, WEEK_KILLS_TO_RED, "weekKillsToRedSkull", 5);
 	loadIntConfig(L, WHEEL_ATELIER_REVEAL_GREATER_COST, "wheelAtelierRevealGreaterCost", 6000000);
